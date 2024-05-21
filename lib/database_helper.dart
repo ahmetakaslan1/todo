@@ -58,6 +58,7 @@ class DatabaseHelper {
       conflictAlgorithm: ConflictAlgorithm.replace,
     );
   }
+  
 
   Future<void> updateItem(Item item) async {
     Database db = await database;
