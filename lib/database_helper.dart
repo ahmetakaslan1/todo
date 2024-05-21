@@ -59,6 +59,7 @@ class DatabaseHelper {
     );
   }
   
+  
 
   Future<void> updateItem(Item item) async {
     Database db = await database;
